@@ -1,0 +1,409 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Ignacio Doe",
+      "image": "https://global-uploads.webflow.com/5eecfecbe625d195e35b89f2/624bfb093da7d92733c001c0_Ignacio%20Villafruela%20Rodr%C3%ADguez.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Jane Bennett",
+      "image": "https://global-uploads.webflow.com/5eecfecbe625d195e35b89f2/624bfb401d7131c760ca1c63_Elieska%20Lensink.jpg"
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "createdBy": 1,
+      "title": "Trampoline party",
+      "description": "Bounce around with your friends",
+      "image": "https://i.pinimg.com/736x/3d/2f/af/3d2faf4e3188d34a9fcdc00df59e77b0.jpg",
+      "categoryIds": [
+        2
+      ],
+      "location": "My back yard",
+      "startTime": "2024-10-02T18:00",
+      "endTime": "2024-10-02T19:00",
+      "categories": [
+        "Relaxation"
+      ]
+    },
+    {
+      "id": "2",
+      "createdBy": 1,
+      "title": "Laser Tag mania",
+      "description": "Let's play laser tag!",
+      "image": "https://www.ctvnews.ca/polopoly_fs/1.5118552.1600965663!/httpImage/image.jpg_gen/derivatives/landscape_1020/image.jpg",
+      "categoryIds": [
+        2
+      ],
+      "location": "Blinded by the Lights Laser Tag, 15 Main St.",
+      "startTime": "2023-04-25T19:30",
+      "endTime": "2023-04-25T21:00",
+      "categories": [
+        "Games"
+      ]
+    },
+    {
+      "id": "3",
+      "createdBy": 2,
+      "title": "Badminton game",
+      "description": "Hit that shuttle!",
+      "image": "https://wincacademy.github.io/webpages/media/pexels-vladvictoria-2202685.jpg",
+      "categoryIds": [
+        1,
+        2
+      ],
+      "location": "The Park",
+      "startTime": "2024-09-19T13:00",
+      "endTime": "2024-09-19T13:45",
+      "categories": [
+        "Sport"
+      ],
+      "creator": "Vlad Vasnetsov",
+      "imageCreator": "https://images.pexels.com/users/avatars/465925/vladislav-vasnetsov-503.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "4",
+      "createdBy": 2,
+      "title": "Yoga",
+      "description": "It's a bit of a stretch.",
+      "image": "https://wincacademy.github.io/webpages/media/pexels-gabby-k-5384538.jpg",
+      "categoryIds": [
+        3
+      ],
+      "location": "Shavasana Yoga School",
+      "startTime": "2024-10-03T15:00",
+      "endTime": "2024-10-03T16:00",
+      "categories": [
+        "Relaxation"
+      ]
+    },
+    {
+      "id": "ca0a",
+      "title": "voetbal",
+      "description": "Lekker een pot voetballen",
+      "image": "https://images.pexels.com/photos/19230871/pexels-photo-19230871/free-photo-of-gras-foto-beweging-stadion.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+      "startTime": "2024-09-21T14:30",
+      "endTime": "2024-09-21T16:00",
+      "categories": [
+        "Sport"
+      ],
+      "creator": "Byrle 3gp",
+      "imageCreator": "https://images.pexels.com/users/avatars/2852314/byrle-3gp-890.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "b458",
+      "title": "hardlopen",
+      "description": "City Marathon ",
+      "image": "https://images.pexels.com/photos/2402777/pexels-photo-2402777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-09-18T09:00",
+      "endTime": "2024-09-18T15:00",
+      "categories": [
+        "Sport"
+      ],
+      "creator": "RUN 4 FFWPU",
+      "imageCreator": "https://images.pexels.com/users/avatars/717672/run-4-ffwpu-869.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "283a",
+      "title": "Handbal",
+      "description": "Met de meiden ",
+      "image": "https://images.pexels.com/photos/25048028/pexels-photo-25048028/free-photo-of-vrouwen-sport-bal-voetbal.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "startTime": "2024-09-16T14:00",
+      "endTime": "2024-09-16T15:00",
+      "categories": [
+        "Sport"
+      ],
+      "creator": "Laura Rieusset",
+      "imageCreator": "https://images.pexels.com/users/avatars/1317354533/laura-rieusset-801.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "d575",
+      "title": "Honkbalwedstrijd",
+      "description": "Team waterman tegen de tijgers",
+      "image": "https://images.pexels.com/photos/17724056/pexels-photo-17724056/free-photo-of-stadion-bordspel-spel-wedstrijd.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "startTime": "2024-09-17T13:00",
+      "endTime": "2024-09-17T16:00",
+      "categories": [
+        "Sport"
+      ],
+      "creator": "Israel Torres",
+      "imageCreator": "https://images.pexels.com/users/avatars/202979711/israel-torres-767.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "83a5",
+      "title": "Basketbal",
+      "description": "70 jarige bestaan van de stadion",
+      "image": "https://images.pexels.com/photos/71103/basketball-sports-teams-players-71103.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-09-14T16:00",
+      "endTime": "2024-09-14T17:00",
+      "categories": [
+        "Sport"
+      ],
+      "creator": "Pixabay",
+      "imageCreator": "https://images.pexels.com/users/avatars/2659/pixabay-617.png?auto=compress&fit=crop&h=50&w=50&dpr=2"
+    },
+    {
+      "id": "0859",
+      "title": "Monopolie",
+      "description": "Met vrienden en vriendinnen",
+      "image": "https://images.pexels.com/photos/4792375/pexels-photo-4792375.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-09-23T13:00",
+      "endTime": "2024-09-23T16:00",
+      "categories": [
+        "Games"
+      ],
+      "creator": "Anete Lusina",
+      "imageCreator": "https://images.pexels.com/users/avatars/2202476/anete-lusina-197.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "caf7",
+      "title": "Mens erger je niet",
+      "description": "Lekker met elkaar ergeren",
+      "image": "https://images.pexels.com/photos/207924/pexels-photo-207924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-09-26T19:00",
+      "endTime": "2024-09-26T20:00",
+      "categories": [
+        "Games"
+      ],
+      "creator": "Pixabay",
+      "imageCreator": "https://images.pexels.com/users/avatars/2659/pixabay-617.png?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "bb7b",
+      "title": "Playstation",
+      "description": "Games speel  op een grote scherm",
+      "image": "https://images.pexels.com/photos/133579/pexels-photo-133579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-09-27T15:30",
+      "endTime": "2024-09-11T18:30",
+      "categories": [
+        "Games"
+      ],
+      "creator": "Anton Porsche",
+      "imageCreator": "https://images.pexels.com/users/avatars/37909/anton-porsche-944.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "eb5e",
+      "title": "Kaarten",
+      "description": "Klaverjassen ",
+      "image": "https://images.pexels.com/photos/279009/pexels-photo-279009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-09-29T14:15",
+      "endTime": "2024-09-29T15:15",
+      "categories": [
+        "Games"
+      ],
+      "creator": " Pixabay",
+      "imageCreator": "https://images.pexels.com/users/avatars/2659/pixabay-617.png?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "6f38",
+      "title": "Wellness",
+      "description": "Een relax massage",
+      "image": "https://images.pexels.com/photos/3760262/pexels-photo-3760262.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-10-01T16:00",
+      "endTime": "2024-10-01T16:30",
+      "categories": [
+        "Relaxation"
+      ],
+      "creator": "Andrea Piacquadio",
+      "imageCreator": "https://images.pexels.com/users/avatars/224453/andrea-piacquadio-138.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "33b5",
+      "title": "Wandel",
+      "description": "Wandel tocht",
+      "image": "https://images.pexels.com/photos/1172253/pexels-photo-1172253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-10-02T13:30",
+      "endTime": "2024-10-02T14:30",
+      "categories": [
+        "Relaxation"
+      ],
+      "creator": "Oleksandr P",
+      "imageCreator": "https://images.pexels.com/users/avatars/100512/oleksandr-pidvalnyi-936.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "8834",
+      "title": "Fiets",
+      "description": "Fietstocht langs mooie landschap",
+      "image": "https://images.pexels.com/photos/1507510/pexels-photo-1507510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-10-03T10:00",
+      "endTime": "2024-10-03T18:00",
+      "categories": [
+        "Relaxation"
+      ],
+      "creator": "Daniel Frank",
+      "imageCreator": "https://images.pexels.com/users/avatars/87604/daniel-frank-123.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "cfcb",
+      "title": "Concert",
+      "description": "Laten we met z'n allen zingen",
+      "image": "https://images.pexels.com/photos/1047442/pexels-photo-1047442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-10-04T21:00",
+      "endTime": "2024-10-04T23:00",
+      "categories": [
+        "Entertainment"
+      ],
+      "creator": "anna-m. w.",
+      "imageCreator": "https://images.pexels.com/users/avatars/364494/anna-m-weber-357.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "5274",
+      "title": "Kermis",
+      "description": "De draaimolen",
+      "image": "https://images.pexels.com/photos/225238/pexels-photo-225238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-10-05T19:00",
+      "endTime": "2024-09-11T20:00",
+      "categories": [
+        "Entertainment"
+      ],
+      "creator": "picjumbo.com",
+      "imageCreator": "https://images.pexels.com/users/avatars/55570/picjumbo-com-744.png?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "722b",
+      "title": "Toverland",
+      "description": "Halloween Nights",
+      "image": "https://images.pexels.com/photos/3359734/pexels-photo-3359734.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-11-05T18:00",
+      "endTime": "2024-11-09T23:00",
+      "categories": [
+        "Entertainment"
+      ],
+      "creator": "Craig Adderley",
+      "imageCreator": "https://images.pexels.com/users/avatars/657879/craig-adderley-766.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "4983",
+      "title": "Musical",
+      "description": "Verzin zelf maar wat",
+      "image": "https://images.pexels.com/photos/713149/pexels-photo-713149.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-10-12T20:30",
+      "endTime": "2024-10-12T23:00",
+      "categories": [
+        "Entertainment"
+      ],
+      "creator": "Monica Silvestre",
+      "imageCreator": "https://images.pexels.com/users/avatars/202413/monica-silvestre-875.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "fb1a",
+      "title": "Bioscoop",
+      "description": "Alien Romulus 2D",
+      "image": "https://images.pexels.com/photos/65128/pexels-photo-65128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-09-18T21:20",
+      "endTime": "2024-09-18T23:34",
+      "categories": [
+        "Entertainment"
+      ],
+      "creator": "Pietro Jeng",
+      "imageCreator": "https://images.pexels.com/users/avatars/13807/pietro-jeng-383.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "84bd",
+      "title": "Tentoonstellingen",
+      "description": "Indianen stam",
+      "image": "https://images.pexels.com/photos/2016121/pexels-photo-2016121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-10-21T17:00",
+      "endTime": "2024-10-21T19:00",
+      "categories": [
+        "Culture"
+      ],
+      "creator": "Faris Munandar",
+      "imageCreator": "https://images.pexels.com/users/avatars/1044415/faris-munandar-176.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "a361",
+      "title": "Tentoonstellingen",
+      "description": "Maaisai stam",
+      "image": "https://images.pexels.com/photos/667200/pexels-photo-667200.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-10-22T14:00",
+      "endTime": "2024-10-22T16:00",
+      "categories": [
+        "Culture"
+      ],
+      "creator": "Follow Alice",
+      "imageCreator": "https://images.pexels.com/users/avatars/162942/follow-alice-200.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "926d",
+      "title": "Bibliotheek",
+      "description": "Boeken over alle culturen",
+      "image": "https://images.pexels.com/photos/256559/pexels-photo-256559.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-10-23T12:00",
+      "endTime": "2024-10-23T18:00",
+      "categories": [
+        "Culture"
+      ],
+      "creator": "Pixabay",
+      "imageCreator": "https://images.pexels.com/users/avatars/2659/pixabay-617.png?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "7b80",
+      "title": "Windmolen",
+      "description": "Alles over windmolens",
+      "image": "https://images.pexels.com/photos/18609263/pexels-photo-18609263/free-photo-of-hemel-lucht-bezienswaardigheid-attractie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-10-24T17:00",
+      "endTime": "2024-10-24T19:00",
+      "categories": [
+        "Culture"
+      ],
+      "creator": "Sonny Vermeer",
+      "imageCreator": "https://images.pexels.com/users/avatars/505472791/sonny-vermeer-463.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "1b78",
+      "title": "Specerijen",
+      "description": "Verschillende soorten",
+      "image": "https://images.pexels.com/photos/1393382/pexels-photo-1393382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-10-25T14:00",
+      "endTime": "2024-10-25T17:00",
+      "categories": [
+        "Culture"
+      ],
+      "creator": "Viktor Smith",
+      "imageCreator": "https://images.pexels.com/users/avatars/593827/viktor-kovacs-597.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "1df2",
+      "title": "Boeken ",
+      "description": "Boeken club",
+      "image": "https://images.pexels.com/photos/4861347/pexels-photo-4861347.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-10-27T16:00",
+      "endTime": "2024-10-27T18:00",
+      "categories": [
+        "Relaxation"
+      ],
+      "creator": "cottonbro studio",
+      "imageCreator": "https://images.pexels.com/users/avatars/1437723/cottonbro-studio-531.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    },
+    {
+      "id": "dd75",
+      "title": "Zeilboot",
+      "description": "Lekker zeilen met z'n alle",
+      "image": "https://images.pexels.com/photos/26417104/pexels-photo-26417104/free-photo-of-zee-mensen-oceaan-zeilboten.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "startTime": "2024-11-01T14:00",
+      "endTime": "2024-12-01T16:00",
+      "categories": [
+        "Relaxation"
+      ],
+      "creator": "Beth Fitzpatrick",
+      "imageCreator": "https://images.pexels.com/users/avatars/742222899/beth-fitzpatrick-192.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2"
+    }
+  ],
+  "categories": [
+    {
+      "name": "sports",
+      "id": "1"
+    },
+    {
+      "name": "games",
+      "id": "2"
+    },
+    {
+      "name": "relaxation",
+      "id": "3"
+    }
+  ]
+}
